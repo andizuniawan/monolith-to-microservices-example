@@ -47,7 +47,7 @@ spec:
       containers:
       - env:
         - name: GCP_PROJECT_ID
-          value: [PROJECT_ID]
+          value: cloud-native-commerce
         image: gcr.io/cloud-solutions-images/ecomm-ads
         imagePullPolicy: Always
         name: ads

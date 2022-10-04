@@ -50,7 +50,7 @@ spec:
         - name: ADS_SERVICE_ENDPOINT
           value: ads:8001
         - name: DB_HOST
-          value: [DB_IP]:3306
+          value: 10.118.0.3:3306
         - name: DB_PASSWORD
           valueFrom: 
             secretKeyRef:
